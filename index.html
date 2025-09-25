@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            background: url('wall1.png');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            background-color: coral;
+           
+        }
+       h2 p{
+       color: white;
+       background-color: black;
+       }
+
+        h2::first-letter{
+            font-size: 30px;
+            color: coral;
+            margin-left: 30px;
+           
+        }
+        .menu{
+            width: 1000px;
+            height: 35px;
+           
+        }
+        nav a{
+         color:white;
+         text-decoration: none;
+         padding: 10px 20px;
+         margin:0 10px;
+         border-radius: 5px;
+         font-size: 23px;
+
+} 
+.search{
+         width: 350px;     
+         float: left top 10px;
+         margin-left: 1200px;
+}
+.search2{
+    
+         height: 30px;
+         width: 200px;
+         background:none;
+         border: 2px solid white;
+         margin-top: 2px;
+         border-bottom-left-radius: 5px;
+         border-top-left-radius:5px ;
+         font-size: 13px;
+         float: left;
+   
+}
+.button{
+       height: 35px;
+       width: 100px;
+       background: coral;
+       border: 2px solid black;
+       margin-top: 0px;
+       border-bottom-right-radius: 5px;
+       border-top-right-radius:5px ;
+
+}
+.button:focus{
+       outline: none;
+}
+.content{
+       width: 1250px;
+       height: auto;
+       left: 200px;
+       margin: auto;
+       color: white;
+}
+.content .paragraph{
+       padding-left: 10px;
+       padding-bottom: 20px;
+       font-family: Arial;
+       letter-spacing: 1.2px;
+       line-height: 50px;
+
+}
+.content .content1{
+       width: 150px;
+       height: 40px;
+       background:coral;
+       margin-bottom: 10px;
+       margin-left: 20px;
+       font-size: 25px;
+       border-radius: 10px;
+       cursor: pointer;
+       transition: .4s ease;
+   
+}
+.content .content1 a {
+       color: black;
+       transition: .3s ease;
+
+}
+.content1:hover{
+        background-color: white;
+    
+}
+.content span{
+        color: coral;
+        font-size: 60px;
+}
+.form{
+        width: 250px;
+        height: 380px;
+        border: 2px solid white;
+        background: linear-gradient(to top, rgb(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+        position: absolute;
+        left: 1200px;
+        bottom: 120px;
+        border-radius: 10px;       
+        padding: 25px;
+
+}
+.form h2{
+        width: 230px;
+        text-align: center;
+        color: coral;
+        font-family: sans-serif;
+        border-radius: 10px;
+        font-size: 20px;
+        margin: 2px;
+        padding: 8px;
+        background-color: white;
+}
+.form input{
+         height: 35px;
+        width: 240px;
+        background: transparent;
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family:  sans-serif;
+}
+::placeholder{
+        color: white;
+        font-family:  sans-serif;
+
+}
+.btn{
+        width: 240px;
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        background: coral;
+        margin-top: 30px;
+        font-size: 18px;
+        color: white;
+        transition: 0.4s ease;
+
+}
+.btn:hover{
+        background: white;
+    
+}
+.btn a{
+        color: black;
+        font-weight: bold;
+}
+.form .link{
+        font-family:  sans-serif;
+        font-size: 17px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+
+}
+.form .link a{
+        color: coral;
+}
+
+.liw{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <h2><p>Seven Mentor Institute</p></h2>
+    </header>
+    <div class="container">
+    
+    <div class="menu">
+       <nav>
+             <a href="ABOUT.HTML">About</a>
+             <a href="contact us">Contact us</a>
+             <a href="services">Services</a>
+             <a href="designs">courses</a>
+       </nav>
+</div>
+    <div class="search">
+       <input class="search2" type="search2"  placeholder="Type To Text....">
+       <a href=""><button class="button">search</button></a>
+
+</div>
+<div class="content">
+    <h1>Fullstack & <br> <span>Java Devlopment course </span><br></h1>
+
+       <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eius reprehenderit sunt hic illo tenetur possimus? <br> Libero, enim? Voluptatem, nihil! ipsum dolor sit amet consectetur adipisicing elit. <br>Aliquam nam ex possimus doloremque dolor error quis  ducimus nesciunt <br> cupiditate voluptatibus veniam 
+          .</p>
+                  <button class="content1"><a href="">Join Us</a></button>
+
+
+
+</div>
+      <div class="form">
+            <h2>Login Here</h2>
+            <input type="Email" placeholder="Enter Email Here.....">
+            <input type="Password" placeholder="Enter Password Here.....">
+
+            <button class="btn"> <a href="">Login</a></button>
+            <p class="link">Don't Have An Account <br>
+            <a href="">Sign Up Here</a></p><br><hr>
+            <P class="liw">Log In With</P>
+      </div>
+</div>
+
+
+</body>
+</html>
